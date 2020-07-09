@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TO-DO APP</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1 id="heading">To-Do List <span id="plus" onClick="newElement()"> <i class="fa fa-plus" aria-hidden="true"></i></span></h1>
+		<input type="text" name="add-todo" id="add-todo" alt="add-todo" placeholder="Add New To-Do">
+		<ul id="list">
+		<li><span id="delete"><i class="fa fa-trash" aria-hidden="true" display:"none"></i></span>Buy Yogurt</li>
+		</ul>
+	</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
